@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library name="City Library" established="1995">
+  <books>
+    <book id="1" isbn="978-0-123456-78-9">
+      <title>Introduction to XML</title>
+      <author>John Doe</author>
+      <year>2020</year>
+      <price currency="USD">29.99</price>
+      <genre>Technology</genre>
+    </book>
+    <book id="2" isbn="978-0-987654-32-1">
+      <title>Advanced Web Development</title>
+      <author>Jane Smith</author>
+      <year>2021</year>
+      <price currency="USD">39.99</price>
+      <genre>Technology</genre>
+    </book>
+    <book id="3" isbn="978-0-456789-01-2">
+      <title>The Art of Programming</title>
+      <author>Bob Johnson</author>
+      <year>2019</year>
+      <price currency="EUR">34.50</price>
+      <genre>Technology</genre>
+    </book>
+  </books>
+  <members>
+    <member id="M001" active="true">
+      <name>Alice Williams</name>
+      <email>alice@example.com</email>
+      <joinDate>2022-01-15</joinDate>
+    </member>
+    <member id="M002" active="true">
+      <name>Charlie Brown</name>
+      <email>charlie@example.com</email>
+      <joinDate>2021-06-20</joinDate>
+    </member>
+  </members>
+</library>
